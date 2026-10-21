@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #2D2D2D;
+    background-color: #FFF;
+    padding: 30px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #2D2D2D;
+    padding: 20px;
+}
+
+legend {
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #2D2D2D;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #FFF;
+}
+
+select {
+    height: 30px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
